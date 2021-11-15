@@ -33,10 +33,10 @@ public class PosMalaysiaTest {
 	        System.out.println("Setting up driver instance...");
 	       
 	        // Local VM
-	        URL url = new URL("http://192.168.100.41:4723/wd/hub");
+	        // URL url = new URL("http://192.168.100.41:4723/wd/hub");
 	        
 	        // For AWS EC2 + Docker
-	        // URL url = new URL("http://stargate.erengu.info:4723/wd/hub");
+	        URL url = new URL("http://stargate.erengu.info:4723/wd/hub");
 
 	        DesiredCapabilities cap = new DesiredCapabilities();
 
